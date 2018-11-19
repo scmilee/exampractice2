@@ -41,7 +41,7 @@ public class JokeFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         UUID JokeId = (UUID) getArguments().getSerializable(ARG_Joke_ID);
-        //mJoke = JokeListFragment.get(getActivity()).getmJoke(JokeId);
+        //mJoke = JokeListActivity.get(getActivity()).getmJoke(JokeId);
 
     }
     @Override

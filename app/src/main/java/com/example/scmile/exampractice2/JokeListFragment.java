@@ -23,6 +23,7 @@ public class JokeListFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
+        jokes = new ArrayList<>();
         ArrayList<String> lines = new ArrayList<>();
         lines.add("lol");
         lines.add("lmao");
